@@ -1,5 +1,6 @@
 My Github: [mikelue](https://github.com/mikelue)<br>
 My Stackvoerflow: [mikelue](https://stackoverflow.com/users/485957/mike-lue)<br>
+My Email Address: [mikelue@ms10.url.com.tw](mikelue@ms10.url.com.tw)<br>
 
 I mainly work for startup company, mostly use AWS services. I have solid experienced with Java programming language and SpringFramework over 10 years.<br>
 I am a fundamentalist on **effective automatic testing**.<br>
