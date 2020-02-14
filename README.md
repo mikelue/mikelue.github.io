@@ -4,9 +4,12 @@ My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/).
 
+I am working for [Archkite](http://www.archkite.com/) currently.
+
+We are designing an out-of-box [PMS](https://en.wikipedia.org/wiki/Property_management_system) for hotels and restaurants(as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)).
+
 I mainly work for startup company, mostly use AWS services. I have solid experienced with Java programming language and SpringFramework over 10 years.<br>
 I am a fundamentalist on **effective automatic testing**.<br>
-In recent 3 years, I have learned using CC to build external DSL(Java and GoLang).
 
 The **design of data model**, relational or NoSql databases, is my outstanding skills on implementation of back-end architecture.
 
@@ -33,6 +36,30 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 -----
 
 # Work Experience
+
+## Senior Programmer
+[Ar.ch.kite Media](http://www.archkite.com/)<br>
+*Jun 2019 ~ Now*
+
+Main responsibilities:
+* Plan of system architecture
+* Design and implement backend service
+
+### Coding
+* Java Stack: Java 11, Maven, Reactor, Jackson JSON
+* Spring Framework Stack: Boot, WebFlux, JPA, Cassandra, Redis
+* Security by Spring Framework: Security over WebFlux, Session(Redis)
+* Database Technologies: PostgreSql(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache)
+* Queuing: Kafka
+* Testing: JUnit5, AssertJ, Jmockit
+* CI: sh scripting, usage of linux system
+* Utilities: Trac(Wiki system), Git
+
+### Sre
+* SRE Stack: Docker
+* CI: Gitlab CI, Github actions
+* AWS Stack: ECS, EC2, VPC, CloudMap, Load Balance, Route 53
+* Network: Let's encrypt
 
 ## Senior Programmer
 
@@ -169,6 +196,12 @@ A plugin of [VIM](https://www.vim.org/) editor for various convenient usage on M
 [jdata-unit-test](https://github.com/mikelue/jdata-unit-test):<br>
 A plugin(support JUnit and TestNG) to prepare/clean data more easily for (RDB) when running testing on stateful function/program.
 
+[jmisc](https://github.com/mikelue/jmisc) :<br>
+Some of not-matured, experimental libraries used in my work.
+
+[ci-misc](https://github.com/mikelue/ci-misc) :<br>
+Some scripts used in CI environment.
+
 -----
 
 # Learning history
@@ -250,3 +283,8 @@ Following list shows the closing down companies for which I worked:<br>
   * *肯心資訊股份有限公司(Canthink Inc.)*
 
 Maybe I am still collecting....
+
+* Log at 202-02-14:
+  While I am working for tourism industry now, the virus of [COVID-19](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) is punching the business.
+
+  Seriously?
