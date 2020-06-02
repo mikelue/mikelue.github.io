@@ -39,7 +39,7 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 
 ## Senior Programmer
 [Ar.ch.kite Media](http://www.archkite.com/)<br>
-*Jun 2019 ~ Now*
+*Jun 2019 ~ May 2020*
 
 Main responsibilities:
 * Plan of system architecture
