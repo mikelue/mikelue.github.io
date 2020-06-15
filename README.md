@@ -4,11 +4,10 @@ My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/).
 
-I am working for [Archkite](http://www.archkite.com/) currently.
+I am looking for new job.
 
-We are designing an out-of-box [PMS](https://en.wikipedia.org/wiki/Property_management_system) for hotels and restaurants(as [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service)).
-
-I mainly work for startup company, mostly use AWS services. I have solid experienced with Java programming language and SpringFramework over 10 years.<br>
+In my career, I mainly work for startup company, mostly use AWS services.<br>
+I have solid experienced with Java programming language and SpringFramework more than 10 years.<br>
 I am a fundamentalist on **effective automatic testing**.<br>
 
 The **design of data model**, relational or NoSql databases, is my outstanding skills on implementation of back-end architecture.
