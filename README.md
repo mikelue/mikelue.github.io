@@ -1,8 +1,14 @@
-My Github: [mikelue](https://github.com/mikelue)<br>
-My Stackvoerflow: [mikelue](https://stackoverflow.com/users/485957/mike-lue)<br>
+My GitHub: [mikelue](https://github.com/mikelue)<br>
+My StackOverflow: [mikelue](https://stackoverflow.com/users/485957/mike-lue)<br>
 My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
-This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/).
+This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
+**please visit this site** to gather detail result of my previous job.
+
+In order to save your time, please check-out following links to know detail of my skills:
+* Java - https://github.com/mikelue/jdata-unit-test
+* Go Lang - https://gh.mikelue.guru/GoLang.html
+* System design - See PDFs under https://github.com/mikelue/mikelue.github.io/tree/master/doc
 
 I am looking for new job.
 
@@ -31,6 +37,7 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
     * Examples: [RESTful API example 1](doc/RESTfulAPI-example-1-Complex-Query.pdf)(Complex query), [RESTful API example 2](doc/RESTfulAPI-example-2-CRUD.pdf)(CRUD)
 1. Database programming: [Guidelines](doc/guideline-db-code.pdf), [Testing Guidelines](doc/guideline-db-code-testing.pdf)
 1. Design of DSL: [Example 1](doc/DSL-example-1.pdf), [Example 2](doc/DSL-example-2.pdf)
+1. See [My working result of GoLang](GoLang.md)
 
 -----
 
