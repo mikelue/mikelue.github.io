@@ -10,8 +10,6 @@ In order to save your time, please check-out following links to know detail of m
 * Go Lang - https://gh.mikelue.guru/GoLang.html
 * System design - See PDFs under https://github.com/mikelue/mikelue.github.io/tree/master/doc
 
-I am looking for new job.
-
 In my career, I mainly work for startup company, mostly use AWS services.<br>
 I have solid experienced with Java programming language and SpringFramework more than 10 years.<br>
 I am a fundamentalist on **effective automatic testing**.<br>
