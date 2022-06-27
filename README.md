@@ -1,13 +1,14 @@
 My GitHub: [mikelue](https://github.com/mikelue)<br>
-My StackOverflow: [mikelue](https://stackoverflow.com/users/485957/mike-lue)<br>
 My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
-**please visit this site** to gather detail result of my previous job.
+**please visit th site** to gather detail of my career.
 
-In order to save your time, please check-out following links to know detail of my skills:
+In order to save your time, please check-out following links for the detail of my skills:
 * Java - https://github.com/mikelue/jdata-unit-test
-* Go Lang - https://gh.mikelue.guru/GoLang.html
+* GoLang
+	* https://gh.mikelue.guru/GoLang.html
+	* https://github.com/mikelue/go-misc
 * System design - See PDFs under https://github.com/mikelue/mikelue.github.io/tree/master/doc
 
 In my career, I mainly work for startup company, mostly use AWS services.<br>
@@ -21,9 +22,9 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 **TOC**
 
 * [Work Result](#work-result)
-* [Work Experience](#work-experience)
+* [Career](#career)
 * [Side Projects](#side-projects)
-* [Learning History](#learning-history)
+* [Hit History](#hit-history)
 * [Education](#education)
 * [Good Luck !!](#good-luck-)
 
@@ -32,18 +33,51 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 # Work result
 
 1. Conventions/Guildlines: [Testing](doc/automatic-testing-conventions.pdf), [RESTful API](doc/common-RESTful-API-conventions.pdf)
-    * Examples: [RESTful API example 1](doc/RESTfulAPI-example-1-Complex-Query.pdf)(Complex query), [RESTful API example 2](doc/RESTfulAPI-example-2-CRUD.pdf)(CRUD)
+  * Examples: [RESTful API example 1](doc/RESTfulAPI-example-1-Complex-Query.pdf)(Complex query), [RESTful API example 2](doc/RESTfulAPI-example-2-CRUD.pdf)(CRUD)
 1. Database programming: [Guidelines](doc/guideline-db-code.pdf), [Testing Guidelines](doc/guideline-db-code-testing.pdf)
 1. Design of DSL: [Example 1](doc/DSL-example-1.pdf), [Example 2](doc/DSL-example-2.pdf)
 1. See [My working result of GoLang](GoLang.md)
 
 -----
 
-# Work Experience
+# Career
 
-## Senior Programmer
-[Ar.ch.kite Media](http://www.archkite.com/)<br>
-*Jun 2019 ~ May 2020*
+## Senior Programmer(backend)
+*重量科技股份有公司 [KryptoGo Inc.](http://kryptogo.com/)*<br>
+*Aug 2020 ~ Aug 2021(1 year)*
+
+Main responsibilities:
+* Take over existing system
+* Plan of system architecture
+* Design and implement backend service
+
+### Coding
+* Java Stack: Java 13, Maven, Reactor, Jackson JSON
+** Spring Framework Stack: Boot, WebFlux, JPA, Redis
+** Security by Spring Framework: Security over WebFlux, Session(Redis)
+* Go Stack: GoLang 1.16
+** Gin, GORM, Go-Resty
+** Testing: Ginkgo, Gomega
+* Databases: PostgreSQL(served by GCP CloudSQL), Redis(self-maintaince by GKE), MongoDB(self-maintaince by GKE)
+* Queuing: RabbitMQ
+* Testing: JUnit5, AssertJ, Jmockit
+* CI: Github actions
+
+### SRE
+* CI: Github CI(action)
+* SRE Stack: Kubernetes, Kustomize(micro-services, redis, RabbitMQ) served by GKE
+* Network: Cloudflare
+
+### Knowledge management
+* Confluence, JIRA, Trac
+* Markdown, AsciiDoc
+
+### Misc
+* Bash
+
+## Senior Programmer(backend)
+[Archkite Media](http://www.archkite.com/)<br>
+*Jun 2019 ~ May 2020(11 months)*
 
 Main responsibilities:
 * Plan of system architecture
@@ -53,19 +87,24 @@ Main responsibilities:
 * Java Stack: Java 11, Maven, Reactor, Jackson JSON
 * Spring Framework Stack: Boot, WebFlux, JPA, Cassandra, Redis
 * Security by Spring Framework: Security over WebFlux, Session(Redis)
-* Database Technologies: PostgreSql(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache)
+* Databases: PostgreSQL(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache)
 * Queuing: Kafka
 * Testing: JUnit5, AssertJ, Jmockit
-* CI: sh scripting, usage of linux system
-* Utilities: Trac(Wiki system), Git
-
-### Sre
-* SRE Stack: Docker
 * CI: Gitlab CI, Github actions
+
+### SRE
+* SRE Stack: Docker
 * AWS Stack: ECS, EC2, VPC, CloudMap, Load Balance, Route 53
 * Network: Let's encrypt
 
-## Senior Programmer
+### Knowledge management
+* Trac
+* Markdown, AsciiDoc
+
+### Misc
+* Bash
+
+## Senior Programmer(backend)
 
 *香港商翱鶚股份有限公司台灣分公司(Cepave Inc.) Taipei City(R.O.C. Taiwan)*<br>
 *Dec 2015 ~ Mar 2018(2 years and 4 months)*
@@ -88,7 +127,7 @@ Worked on:
     * **Other Tools**: Maven, Liquibase, Docker
 1. New-Design of alert core(OWL subsystem)
     * **Language**: Java
-    * **Databases**: PostgreSql, Kafka
+    * **Databases**: PostgreSQL, Kafka
     * **Queueing**: Kafka
     * **Frameworks/Libraries**: SpringFramework(Core, Web MVC, Boot), jmockit, SLF4j(logback), JMX, TestNG, JUnit, Java Bean Validation(JSR-380)
     * **Other Tools**: Maven, Liquibase, Docker
@@ -103,7 +142,7 @@ Improvements and Guiding:
   1. Plan and adopt coding guidelines for automatic testing.
   1. Plan and adopt coding guidelines for automatic testing on stateful service/module.
 
-## Senior Programmer
+## Senior Programmer(backend)
 
 *博諾資訊(Bonopoints Inc.) Taipei City(R.O.C. Taiwan)*<br>
 *Mar 2014 ~ Jul 2015(1 year and 5 months)*
@@ -126,7 +165,7 @@ Improvements and guiding:
   1. Plan and adopt coding guidelines for automatic testing(JUnit, TestNG)
   1. Plan and adopt coding guidelines for automatic testing on stateful program/module(JUnit, TestNG)
 
-## Senior Programmer
+## Senior Programmer(backend)
 
 *傳諦股份有限公司(FenzyTV Inc.). Taipei City(R.O.C. Taiwan)*<br>
 *Mar 2013 ~ Oct 2013(8 months)*
@@ -140,7 +179,7 @@ Improvements and enhancements:
   1. Plan and adopt on testing framework(JUnit, TestNG) and database evolution(Liquibase)
   1. Plan RESTful services(JSON) conventions and specifications
 
-## Senior Programmer
+## Senior Programmer(backend)
 
 *原點科技有限公司(Bluetang Ltd.) Taipei City(R.O.C. Taiwan)*<br>
 *Fab 2011 ~ Jul 2012(1 year and 6 months)*
@@ -208,54 +247,24 @@ Some scripts used in CI environment.
 
 -----
 
-# Learning history
+# Hit history
 
 * *2005 ~ 2009*(Canthink Inc.)
-  1. The basic programming skills and concepts of ORM, IoC(Inverse of Control), logging, and automatic testing
-  1. The building of frameworks from scratch(because of [ASP](https://en.wikipedia.org/wiki/Active_Server_Pages)) gives me solid knowledge of how ORM, logging and automatic testing works.
-  1. The design of database warehousing/mining.
-  1. Thanks to my manager, his open-mind attitude made the system survived the endless challenges for the product(E-Learning system)
-  1. In my spare time, I learned the concepts of:
-      * memory management of OS
-      * how does design of data model impact on databae performance
-      * the nature of HTTP
+  1. I figured out the reason of memory leak for ASP engine.
 * *2009 ~ 2011*(I-Mei Inc.)
-  1. Building for full-stack development(from scratch) of a web system. And development on Java-ecosystem.
-    1. JUnit, TestNG for testing
-    1. ORM for coding on relational database
-    1. Shiro for security of web system
-    1. SpringFramework(Core, Web MVC) for well-designed system on implementations.
-    1. StringTemplate and Freemarker for front-end.
-  1. The usage of [Liquibase](http://www.liquibase.org/) for database evolution.
-  1. In my spare time, I learned the concepts of compiler.
+  1. First time I designed a full-stack system.
+  1. I learned some principal of compiler.
 * *2011 ~ 2012*(Bluetang Ltd.)
-  1. The usage of cloud services(AWS RDS, EC2)
-  1. How to formulate the specifications for RESTful API
-  1. How to guide the design of database schema for team
-  1. Development on Android system
-  1. In my spare time, I developed *vim-maven-plugin*
+  1. First time I used modern cloud services.
 * *2013*(FanzyTv Inc.)
-  1. How to guide the development of system with valuable principals.
-* *2014 ~ 2015(Bonopoints Inc.)*
-  1. The usage of GAE(Goole Application Engine), which is a terrible experience.
-  1. Thanks to my manager, let me have confidences in:
-      * my design principle of back-end
-      * my disciplines of software development.
-  1. In my spare time, I developed *jdata-unit-test*
+  1. I experienced benefits of automatic tests.
+* *2014 ~ 2015*(Bonopoints Inc.)
+  1. My [manager](https://www.linkedin.com/in/yingfsu/) said that my integrity is the most valuable characteristic of me.
 * *2015 ~ 2018*(Cepave Inc.)
-  1. The Go programming language, which is not my type of language.
-      * The **package(namespace) of module** is a totally disaster of dependency management.
-      * The **reflection** is a WTF, compares to Java.
-      * The deployment of configuration files for a GoLang program is a nightmare.
-      * I am not a child, I don't need the toy of **tag string of struct**.
-      * Ecosystem is still an infant.
-  1. The first time I design external-DSLs by tools of compiler
-  1. Thanks to my colleagues, let me have confidences in:
-      * how to adopt my design principle of back-end to the whole team.
-      * how to adopt my disciplines of software development to the whole team.
-  1. In my spare time, I learned the concepts of:
-      * how programing languages turn into assembly language
-      * finite-state machine and tuning machine
+  1. I became mentor of other programmers without organization position.
+  1. First time I used compiler-generator to build DSL.
+* *2020 ~ 2021*(KryptoGo Inc.)
+  1. My [boss](https://www.notion.so/b2de72854a8b42609622ce925e328d41) said that I like the *Tim Duncan*, who is retired player of NBA.
 
 I also have some experiences on Perl and PHP programming languages.
 
@@ -271,10 +280,6 @@ Internship of Maintenance Department:
   1. Maintenance on computer hardware
   1. Network configuration and network maintenance
 
-## Certifications
-
-**Oracle OCA 9i**(2003)
-
 -----
 
 # Good Luck !!
@@ -285,10 +290,3 @@ Following list shows the closing down companies for which I worked:<br>
   * *傳諦股份有限公司(FenzyTV Inc.)*
   * *原點科技有限公司(Bluetang Ltd.)*
   * *肯心資訊股份有限公司(Canthink Inc.)*
-
-Maybe I am still collecting....
-
-* Log at 202-02-14:
-  While I am working for tourism industry now, the virus of [COVID-19](https://en.wikipedia.org/wiki/2019%E2%80%9320_Wuhan_coronavirus_outbreak) is punching the business.
-
-  Seriously?
