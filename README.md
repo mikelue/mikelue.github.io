@@ -55,12 +55,12 @@ Main responsibilities:
 * Java Stack: Java 13, Maven, Reactor, Jackson JSON
 ** Spring Framework Stack: Boot, WebFlux, JPA, Redis
 ** Security by Spring Framework: Security over WebFlux, Session(Redis)
+** Testing: JUnit5, AssertJ, Jmockit
 * Go Stack: GoLang 1.16
 ** Gin, GORM, Go-Resty
 ** Testing: Ginkgo, Gomega
-* Databases: PostgreSQL(served by GCP CloudSQL), Redis(self-maintaince by GKE), MongoDB(self-maintaince by GKE)
+* Databases: PostgreSQL(served by GCP CloudSQL), Redis(self-maintaince by GKE), MongoDB(self-maintaince by GKE), Liquibase
 * Queuing: RabbitMQ
-* Testing: JUnit5, AssertJ, Jmockit
 * CI: Github actions
 
 ### SRE
@@ -87,7 +87,7 @@ Main responsibilities:
 * Java Stack: Java 11, Maven, Reactor, Jackson JSON
 * Spring Framework Stack: Boot, WebFlux, JPA, Cassandra, Redis
 * Security by Spring Framework: Security over WebFlux, Session(Redis)
-* Databases: PostgreSQL(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache)
+* Databases: PostgreSQL(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache), Liquibase
 * Queuing: Kafka
 * Testing: JUnit5, AssertJ, Jmockit
 * CI: Gitlab CI, Github actions
