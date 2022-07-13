@@ -53,12 +53,12 @@ Main responsibilities:
 
 ### Coding
 * Java Stack: Java 13, Maven, Reactor, Jackson JSON
-** Spring Framework Stack: Boot, WebFlux, JPA, Redis
-** Security by Spring Framework: Security over WebFlux, Session(Redis)
-** Testing: JUnit5, AssertJ, Jmockit
+	* Spring Framework Stack: Boot, WebFlux, JPA, Redis
+	* Security by Spring Framework: Security over WebFlux, Session(Redis)
+	* Testing: JUnit5, AssertJ, Jmockit
 * Go Stack: GoLang 1.16
-** Gin, GORM, Go-Resty
-** Testing: Ginkgo, Gomega
+	* Gin, GORM, Go-Resty
+	* Testing: Ginkgo, Gomega
 * Databases: PostgreSQL(served by GCP CloudSQL), Redis(self-maintaince by GKE), MongoDB(self-maintaince by GKE), Liquibase
 * Queuing: RabbitMQ
 * CI: Github actions
