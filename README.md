@@ -2,7 +2,56 @@ My GitHub: [mikelue](https://github.com/mikelue)<br>
 My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
-**please visit th site** to gather detail of my career.
+**please visit the site** to gather detail of my career.
+
+# Some experiences I've faced
+
+Software development:
+* Software development must have three things, definition, implementation, and testing, whatever developing process you take.
+* Most programmers struggle between implementation and testing, rare programmers make good definition.
+	* Definition is about make your problem simple, not choose your solution as complex as possible.
+	* Implementation is about loyal to specification and deal with the abstraction leaking of IT.
+	* Testing is composed of the tests human can do and the ones only computer can do.
+* Workaround is always unworthy, unless your don't have to maintain the code anymore(as criminal as I think).
+
+Data design:
+* Coding is like starting relationship with someone, data design is like running marriage.
+* Lost your code is trivial, lost system data is death sentence.
+	* Coding is about correction with sensible algorithms.
+	* Data design is about using the least logical I/O to reach your function, whatever you are using SQL or NoSQL databases.
+* An algorithm is same however much times you run it.
+* A database is not the same one after time passes(like marriage).
+* Change code is easy(test, building, restart container), change data is hard(when and how to change).
+* When data have bugs, the cost for debugging and fixing is larger than code.
+
+Testing:
+* Software quality is like onion, outer layer(front-end) depends on inner layer(back-end).
+* The cost to debug in inner layer is larger than in outer layer.
+* Unit tests slice the layers for quality insurance.
+* The benefits of unit tests
+	* Make sure basic quality for next release version (40%)
+	* Make sure the upgrading of compiler/libraries on which your software depends is safe (30%)
+	* Quickly rule out some suspected problems while your are debugging (30%)
+
+Documentation:
+* Writing something for helping yourself to recall the things you might forget in future.
+* Writing something for helping others who might take over your code but he or she is unable to contact you directly.
+* Something is better than nothing.
+
+# Stuffs affect my design principles
+
+From nowhere:
+* *"When specification is lost, all is lost"*
+* *"An ounce of prevention is worth a pound of cure."* - *Benjamin Franklin*
+
+From [The Art of SQL, 978-0596008949](https://www.amazon.com/Art-SQL-Stephane-Faroult/dp/0596008945/ref=sr_1_1?keywords=the+art+of+sql&qid=1658546247&s=books&sr=1-1):
+* *"Successful data modeling is the disciplined application of what are, fundamentally, simple design principles."*
+* *"The sad truth is that when you are beginning to be acknowledged as a skilled SQL tuner, people will not seek your advice until they discover that they have performance problems."*
+
+Other books:
+* *"Schema optimization and indexing require a big-picture approach as well as attention to details."* \- [High Performance MySQL](https://www.amazon.com/High-Performance-MySQL-Silvia-Botros-ebook/dp/B09M7W126W/ref=sr_1_1?keywords=High+Performance+MySQL&qid=1658556030&s=books&sr=1-1)
+
+-----
 
 In order to save your time, please check-out following links for the detail of my skills:
 * Java - https://github.com/mikelue/jdata-unit-test
