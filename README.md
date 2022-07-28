@@ -4,6 +4,8 @@ My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
 **please visit the site** to gather detail of my career.
 
+You can check [summary](./Summary.md).
+
 # Some experiences I've faced
 
 Software development:
@@ -95,13 +97,22 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 *重量科技股份有公司 [KryptoGo Inc.](http://kryptogo.com/)*<br>
 *Aug 2020 ~ Aug 2021(1 year)*
 
+Responsible for Product: KYC(Know You Client), CDO(Customer Due Diligence) system
+
 Main responsibilities:
 * Take over existing system
 * Plan of system architecture
 * Design and implement backend service
 
+What I did:
+* Build parser to parse juricdial verdict to build index for searching.
+	* Improve search speed from almost 10 minutes to real time
+* Design concurrent web crawling for web page from Google engine
+* Simplify architecture(micro-service) of existing system, and that brought decrease in 50% billing(GCP).
+
 ### Coding
 * Java Stack: Java 13, Maven, Reactor, Jackson JSON
+	* Use reactive programming(reactor)
 	* Spring Framework Stack: Boot, WebFlux, JPA, Redis
 	* Security by Spring Framework: Security over WebFlux, Session(Redis)
 	* Testing: JUnit5, AssertJ, Jmockit
@@ -128,12 +139,15 @@ Main responsibilities:
 [Archkite Media](http://www.archkite.com/)<br>
 *Jun 2019 ~ May 2020(11 months)*
 
+Responsible for Product: Online booking system like airbnb
+
 Main responsibilities:
 * Plan of system architecture
 * Design and implement backend service
 
 ### Coding
-* Java Stack: Java 11, Maven, Reactor, Jackson JSON
+* Java Stack: Java 11, Maven, Jackson JSON
+	* Use reactive programming(reactor)
 * Spring Framework Stack: Boot, WebFlux, JPA, Cassandra, Redis
 * Security by Spring Framework: Security over WebFlux, Session(Redis)
 * Databases: PostgreSQL(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache), Liquibase
@@ -159,6 +173,17 @@ Main responsibilities:
 *Dec 2015 ~ Mar 2018(2 years and 4 months)*
 
 **Company Product: [OWL](https://github.com/fwtpe/owl-backend)(Distributed monitoring system for CDN)**
+
+What I did:
+
+* Mentor colleague
+	* To fix a cron job(every 5 minutes), which consumed 100% MySQL resources and could not be finished in 5 minutes,
+		as a dozen of seconds runtime and the resource usage of MySQL server was barely noticed.
+	* Use both time window(1 minute) and data size(N) to make batch insertion of data, which improved write throughput and decreased data dead lock of MySQL.
+* Design a DSL to query metrics reported from monitored hosts.
+* Design and implement NQM(network quality management) service.
+	* Maintain and transfer from existing PHP-NQM system to OWL system.
+* Simplify architecture(micro-service) to make SQL in single place, which eased the work of operators.
 
 Worked on:
 
@@ -198,6 +223,11 @@ Improvements and Guiding:
 
 **Company Product: coupon/member management for small business(triggered by RFID)**
 
+What I did:
+
+* Build whole back-end services.
+* According my manager, I was the key man for time deliver of service on schedule.
+
 Worked on back-end system:
   * **Languages**: Java
   * **Databases**: Google Data Store
@@ -221,8 +251,13 @@ Improvements and guiding:
 
 **Company Services: Community for TV Program**
 
-1. **Back-end**: Spring Framework(Core, Web MVC),    JPA(JSR-317),    StringTemplate,    JAX-RS,    Java Bean Validation(JSR-303), MySQL, Shiro
-1. **Cloud Services**: RDS,    EC2
+What I did:
+
+* Build deploy flow(Java Web Container, TDD) to ensure quality of rolling-out service.
+* Author documentation of RESTful API
+
+1. **Back-end**: Spring Framework(Core, Web MVC), JPA(JSR-317), StringTemplate, JAX-RS, Java Bean Validation(JSR-303), MySQL, Shiro
+1. **Cloud Services**: RDS, EC2
 
 Improvements and enhancements:
   1. Plan and adopt on testing framework(JUnit, TestNG) and database evolution(Liquibase)
@@ -234,6 +269,10 @@ Improvements and enhancements:
 *Fab 2011 ~ Jul 2012(1 year and 6 months)*
 
 **Company Services: Online schemaless-database service(like AWS SimpleDB)**
+
+What I did:
+
+* Build data-warehousing service, which was on time-dimension.
 
 Worked on:
   1. Web site
@@ -253,6 +292,12 @@ Improvements:
 
 **Company: P2P platform of E-Books**
 
+What I did:
+
+* By TDD, ensured whole team could output fine software quality.
+* Use HTTP library to hack DRM system in order to implement DRM for eBooks(the DRM system has no API).
+* According to government agent, we were the only one company that there aws no error when demonstrating system.
+
 Worked on:
   1. Web site
       1. **Web Tech**: SpringFramework(Web MVC),    FreeMarker,    StringTemplate, HTML, CSS, JavaScript
@@ -268,6 +313,11 @@ Worked on:
 *Fab 2005 ~ Dec 2009(4 years and 11 months)*
 
 **Company Product: E-Learning system**
+
+What I did:
+
+* According to my manager, the disciplined method to design database has decreased the number of bugs significantly.
+* Figure out the reason of memory leak of ASP engine that we could use a simpler way to update script without rebooting IIS.
 
 Worked on:
   1. **Core development**: ASP(~~.Net~~), MS SQL Server
