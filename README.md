@@ -1,10 +1,26 @@
-My GitHub: [mikelue](https://github.com/mikelue)<br>
+This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
+**please visit the site** to gather detail of my career and lastest update.
+
+Check my GitHub: [@mikelue](https://github.com/mikelue), side projects:
+* [mikelue/jmisc](https://github.com/mikelue/jmisc) - Some Java utilities/libraries I developed for my work, related to Spring Framework(Core, Data), JPA.
+* [mikelue/valor-code](https://github.com/mikelue/valor-code) - Has an imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
+* [mikelue/jdata-unit-test](https://github.com/mikelue/jdata-unit-test) - For self-learning of lambda usage of Java, this project is an imitation of Apache DBUnit.
+* [mikelue/go-misc](https://github.com/mikelue/go-misc) - Some GoLang utilities/libraries I developed for my work, related to Ginkgo, Gorm, and a bit of imitation of Spring Framework of Java.
+* [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
+
 My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
-This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
-**please visit the site** to gather detail of my career.
-
 You can check [summary](./Summary.md).
+
+-----
+
+**TOC**
+
+* [Work Result](#work-result)
+* [Career](#career)
+* [Hit History](#hit-history)
+* [Education](#education)
+* [Else](#else)
 
 # Some experiences I've faced
 
@@ -70,17 +86,6 @@ The **design of data model**, relational or NoSql databases, is my outstanding s
 
 -----
 
-**TOC**
-
-* [Work Result](#work-result)
-* [Career](#career)
-* [Side Projects](#side-projects)
-* [Hit History](#hit-history)
-* [Education](#education)
-* [Good Luck !!](#good-luck-)
-
------
-
 # Work result
 
 1. Conventions/Guildlines: [Testing](doc/automatic-testing-conventions.pdf), [RESTful API](doc/common-RESTful-API-conventions.pdf)
@@ -105,7 +110,7 @@ Main responsibilities:
 * Design and implement backend service
 
 What I did:
-* Build parser to parse juricdial verdict to build index for searching.
+* Build parser to parse juridical verdict to build index for searching.
 	* Improve search speed from almost 10 minutes to real time
 * Design concurrent web crawling for web page from Google engine
 * Simplify architecture(micro-service) of existing system, and that brought decrease in 50% billing(GCP).
@@ -330,22 +335,6 @@ Development of libraries/frameworks from scratch:
 
 -----
 
-# Side projects
-
-[vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin):<br>
-A plugin of [VIM](https://www.vim.org/) editor for various convenient usage on Maven execution.
-
-[jdata-unit-test](https://github.com/mikelue/jdata-unit-test):<br>
-A plugin(support JUnit and TestNG) to prepare/clean data more easily for (RDB) when running testing on stateful function/program.
-
-[jmisc](https://github.com/mikelue/jmisc) :<br>
-Some of not-matured, experimental libraries used in my work.
-
-[ci-misc](https://github.com/mikelue/ci-misc) :<br>
-Some scripts used in CI environment.
-
------
-
 # Hit history
 
 * *2005 ~ 2009*(Canthink Inc.)
@@ -381,11 +370,12 @@ Internship of Maintenance Department:
 
 -----
 
-# Good Luck !!
+# Else
 
-Following list shows the closing down companies for which I worked:<br>
-  * *香港商翱鶚股份有限公司台灣分公司(Cepave Inc.)*
-  * *博諾資訊(Bonopoints Inc.)*
-  * *傳諦股份有限公司(FenzyTV Inc.)*
-  * *原點科技有限公司(Bluetang Ltd.)*
-  * *肯心資訊股份有限公司(Canthink Inc.)*
+Following list are the closed down companies I had worked for.<br>
+
+* *香港商翱鶚股份有限公司台灣分公司(Cepave Inc.)*
+* *博諾資訊(Bonopoints Inc.)*
+* *傳諦股份有限公司(FenzyTV Inc.)*
+* *原點科技有限公司(Bluetang Ltd.)*
+* *肯心資訊股份有限公司(Canthink Inc.)*
