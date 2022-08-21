@@ -1,17 +1,17 @@
 ## Development for Micro-sevices/Saga Pattern/Event sourcing
 
 * Language:
-  * Java(over 10 years): SpringBoot, Spring WebFlux/WebMVC, SpringSecurity, SpringData(JPA/Hibernetes, Cassandra),
-	Reactive Programming(Reactor), BeanValidation, AspectJ, CGLib, SLF4j, LogBack
-	* GoLang(3 years): Gin, GORM
+  * Java(over 10 years): SpringBoot, Spring WebFlux/WebMVC, SpringSecurity, SpringData(JPA/Hibernetes, Cassandra), Reactive Programming(Reactor), BeanValidation,
+    AspectJ, CGLib, SLF4j, LogBack
+  * GoLang(3 years): Gin, GORM, Go-Resty
 * Language Tools:
-	* Java: Maven
+  * Java: Maven
 * Testing:
-	* Java: JUnit(Jupiter), JMockit
-	* GoLang: Ginkgo, Gomega, Go-Resty
+  * Java: JUnit(Jupiter), JMockit
+  * GoLang: Ginkgo, Gomega
 * Parser generator:
-	* Java: ANTLR
-	* GoLang: pointlander/peg
+  * Java: ANTLR
+  * GoLang: pointlander/peg
 * Queueing: RabbitMQ, Kafka
 
 ### Architecture

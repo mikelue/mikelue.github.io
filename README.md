@@ -12,6 +12,8 @@ My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
 
 You can check [summary](./Summary.md).
 
+Some documentations I used in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
+
 -----
 
 **TOC**
@@ -27,16 +29,16 @@ You can check [summary](./Summary.md).
 Software development:
 * Software development must have three things, definition, implementation, and testing, whatever developing process you take.
 * Most programmers struggle between implementation and testing, rare programmers make good definition.
-	* Definition is about make your problem simple, not choose your solution as complex as possible.
-	* Implementation is about loyal to specification and deal with the abstraction leaking of IT.
-	* Testing is composed of the tests human can do and the ones only computer can do.
+  * Definition is about make your problem simple, not choose your solution as complex as possible.
+  * Implementation is about loyal to specification and deal with the abstraction leaking of IT.
+  * Testing is composed of the tests human can do and the ones only computer can do.
 * Workaround is always unworthy, unless your don't have to maintain the code anymore(as criminal as I think).
 
 Data design:
 * Coding is like starting relationship with someone, data design is like running marriage.
 * Lost your code is trivial, lost system data is death sentence.
-	* Coding is about correction with sensible algorithms.
-	* Data design is about using the least logical I/O to reach your function, whatever you are using SQL or NoSQL databases.
+  * Coding is about correction with sensible algorithms.
+  * Data design is about using the least logical I/O to reach your function, whatever you are using SQL or NoSQL databases.
 * An algorithm is same however much times you run it.
 * A database is not the same one after time passes(like marriage).
 * Change code is easy(test, building, restart container), change data is hard(when and how to change).
@@ -47,9 +49,9 @@ Testing:
 * The cost to debug in inner layer is larger than in outer layer.
 * Unit tests slice the layers for quality insurance.
 * The benefits of unit tests
-	* Make sure basic quality for next release version (40%)
-	* Make sure the upgrading of compiler/libraries on which your software depends is safe (30%)
-	* Quickly rule out some suspected problems while your are debugging (30%)
+  * Make sure basic quality for next release version (40%)
+  * Make sure the upgrading of compiler/libraries on which your software depends is safe (30%)
+  * Quickly rule out some suspected problems while your are debugging (30%)
 
 Documentation:
 * Writing something for helping yourself to recall the things you might forget in future.
@@ -71,31 +73,6 @@ Other books:
 
 -----
 
-In order to save your time, please check-out following links for the detail of my skills:
-* Java - https://github.com/mikelue/jdata-unit-test
-* GoLang
-	* https://gh.mikelue.guru/GoLang.html
-	* https://github.com/mikelue/go-misc
-* System design - See PDFs under https://github.com/mikelue/mikelue.github.io/tree/master/doc
-
-In my career, I mainly work for startup company, mostly use AWS services.<br>
-I have solid experienced with Java programming language and SpringFramework more than 10 years.<br>
-I am a fundamentalist on **effective automatic testing**.<br>
-
-The **design of data model**, relational or NoSql databases, is my outstanding skills on implementation of back-end architecture.
-
------
-
-# Work result
-
-1. Conventions/Guildlines: [Testing](doc/automatic-testing-conventions.pdf), [RESTful API](doc/common-RESTful-API-conventions.pdf)
-  * Examples: [RESTful API example 1](doc/RESTfulAPI-example-1-Complex-Query.pdf)(Complex query), [RESTful API example 2](doc/RESTfulAPI-example-2-CRUD.pdf)(CRUD)
-1. Database programming: [Guidelines](doc/guideline-db-code.pdf), [Testing Guidelines](doc/guideline-db-code-testing.pdf)
-1. Design of DSL: [Example 1](doc/DSL-example-1.pdf), [Example 2](doc/DSL-example-2.pdf)
-1. See [My working result of GoLang](GoLang.md)
-
------
-
 # Career
 
 ## Senior Programmer(backend)
@@ -111,19 +88,19 @@ Main responsibilities:
 
 What I did:
 * Build parser to parse juridical verdict to build index for searching.
-	* Improve search speed from almost 10 minutes to real time
+  * Improve search speed from almost 10 minutes to real time
 * Design concurrent web crawling for web page from Google engine
 * Simplify architecture(micro-service) of existing system, and that brought decrease in 50% billing(GCP).
 
 ### Coding
 * Java Stack: Java 13, Maven, Reactor, Jackson JSON
-	* Use reactive programming(reactor)
-	* Spring Framework Stack: Boot, WebFlux, JPA, Redis
-	* Security by Spring Framework: Security over WebFlux, Session(Redis)
-	* Testing: JUnit5, AssertJ, Jmockit
+  * Use reactive programming(reactor)
+  * Spring Framework Stack: Boot, WebFlux, JPA, Redis
+  * Security by Spring Framework: Security over WebFlux, Session(Redis)
+  * Testing: JUnit5, AssertJ, Jmockit
 * Go Stack: GoLang 1.16
-	* Gin, GORM, Go-Resty
-	* Testing: Ginkgo, Gomega
+  * Gin, GORM, Go-Resty
+  * Testing: Ginkgo, Gomega
 * Databases: PostgreSQL(served by GCP CloudSQL), Redis(self-maintaince by GKE), MongoDB(self-maintaince by GKE), Liquibase
 * Queuing: RabbitMQ
 * CI: Github actions
@@ -152,7 +129,7 @@ Main responsibilities:
 
 ### Coding
 * Java Stack: Java 11, Maven, Jackson JSON
-	* Use reactive programming(reactor)
+  * Use reactive programming(reactor)
 * Spring Framework Stack: Boot, WebFlux, JPA, Cassandra, Redis
 * Security by Spring Framework: Security over WebFlux, Session(Redis)
 * Databases: PostgreSQL(served by AWS RDS), Cassandra, Redis(served by AWS Elastic Cache), Liquibase
@@ -182,12 +159,12 @@ Main responsibilities:
 What I did:
 
 * Mentor colleague
-	* To fix a cron job(every 5 minutes), which consumed 100% MySQL resources and could not be finished in 5 minutes,
-		as a dozen of seconds runtime and the resource usage of MySQL server was barely noticed.
-	* Use both time window(1 minute) and data size(N) to make batch insertion of data, which improved write throughput and decreased data dead lock of MySQL.
+  * To fix a cron job(every 5 minutes), which consumed 100% MySQL resources and could not be finished in 5 minutes,
+    as a dozen of seconds runtime and the resource usage of MySQL server was barely noticed.
+  * Use both time window(1 minute) and data size(N) to make batch insertion of data, which improved write throughput and decreased data dead lock of MySQL.
 * Design a DSL to query metrics reported from monitored hosts.
 * Design and implement NQM(network quality management) service.
-	* Maintain and transfer from existing PHP-NQM system to OWL system.
+  * Maintain and transfer from existing PHP-NQM system to OWL system.
 * Simplify architecture(micro-service) to make SQL in single place, which eased the work of operators.
 
 Worked on:
