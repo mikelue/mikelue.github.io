@@ -8,7 +8,7 @@ Check my GitHub: [@mikelue](https://github.com/mikelue), side projects:
 * [mikelue/go-misc](https://github.com/mikelue/go-misc) - Some GoLang utilities/libraries I developed for my work, related to Ginkgo, Gorm, and a bit of imitation of Spring Framework of Java.
 * [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
 
-My Email Address: [mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)<br>
+My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
 
 You can check [summary](./Summary.md).
 
@@ -18,7 +18,6 @@ Some documentations I used in my work can be found at [mikelue/mikelue.github.io
 
 **TOC**
 
-* [Work Result](#work-result)
 * [Career](#career)
 * [Hit History](#hit-history)
 * [Education](#education)
