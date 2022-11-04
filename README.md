@@ -47,10 +47,13 @@ Testing:
 * Software quality is like onion, outer layer(front-end) depends on inner layer(back-end).
 * The cost to debug in inner layer is larger than in outer layer.
 * Unit tests slice the layers for quality insurance.
+* You may cost 10x developing time for writing unit testing,
+  but you will definitely run the tests more than 10 times.
 * The benefits of unit tests
   * Make sure basic quality for next release version (40%)
-  * Make sure the upgrading of compiler/libraries on which your software depends is safe (30%)
-  * Quickly rule out some suspected problems while your are debugging (30%)
+  * Make sure the upgrading of compiler/libraries on which your software depends is safe (20%)
+  * Refactoring existing code without fear(20%)
+  * Quickly rule out some suspected problems while your are debugging (20%)
 
 Documentation:
 * Writing something for helping yourself to recall the things you might forget in future.
