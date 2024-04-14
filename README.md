@@ -12,7 +12,7 @@ My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<b
 
 You can check [summary](./Summary.md).
 
-Some documentations I used in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
+Some documentations I wrote in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
 
 -----
 
@@ -77,7 +77,31 @@ Other books:
 
 # Career
 
-## Senior Programmer(backend)
+## Senior Architect/Senior Programmer(backend)
+* [TriiiX Inc.](http://www.triiix.io/)*<br>
+*Sep 2022 ~ NOW*
+
+Responsible for:
+* Techniques for solid transaction over distributed system.
+* Techniques for asynchronous data input from external system.
+* Solve system bottlenecks caused by RDB.
+* Solve system bottlenecks caused by poor implementation.
+
+What I did:
+* Ease deployment for 20 micro-services(self-hosting)of backend development.
+* Turn the unable-scale micro-services to scalable ones.
+* Turn the legacy logging mechanism to GCP structured one.
+* Use 2-layer reversed proxy to make private API easy to test.
+* Refactoring spaghetti usage over Spring/Spring Boot to decent one.
+* Turn the fat properties to necessary ones, which ease deployment of production.
+* Shrink JAR size.
+
+What I brought:
+* How to write unit tests on legacy system.
+* How to use spring-boot to prevent deploying local-configuration to shared one.
+* How to write effective logging message.
+
+## Senior Architect/Senior Programmer(backend)
 *重量科技股份有公司 [KryptoGo Inc.](http://kryptogo.com/)*<br>
 *Aug 2020 ~ Aug 2021(1 year)*
 
@@ -331,7 +355,7 @@ Development of libraries/frameworks from scratch:
   1. I became mentor of other programmers without organization position.
   1. First time I used compiler-generator to build DSL.
 * *2020 ~ 2021*(KryptoGo Inc.)
-  1. My [boss](https://www.notion.so/b2de72854a8b42609622ce925e328d41) said that I like the *Tim Duncan*, who is retired player of NBA.
+  1. My [boss](https://www.notion.so/b2de72854a8b42609622ce925e328d41) said that I like the *Tim Duncan*, who is a retired player of NBA.
 
 I also have some experiences on Perl and PHP programming languages.
 
