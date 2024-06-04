@@ -1,3 +1,8 @@
+## My speciality skills
+
+* Have a view for design which concerns about _programming_, _testability_, _maintainability_, _security_, and _operability_.
+* Know what kind of lacking knowledge will cause what kind of system problems.
+
 ## Development for Micro-sevices/Saga Pattern/Event sourcing
 
 * Language:
@@ -28,10 +33,12 @@
 With TDD principals, I am good at refactoring/simplifying existing system.
 
 * Experiences on refactoring from monolith system to micro-services.
+* Expert on test-driven for reliable software quality while refactoring.
 
 ## Database design/performance tuning and evolution
 
-Expert on relational database.
+* Expert on relational database.
+* Expert on paper-design of database schema(based on [ANSI-SPARC Architecture](https://en.wikipedia.org/wiki/ANSI-SPARC_Architecture)).
 
 Experienced on NoSQL Databases: Cassandra, MongoDB
 

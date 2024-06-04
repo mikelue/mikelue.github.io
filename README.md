@@ -1,18 +1,21 @@
 This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
 **please visit the site** to gather detail of my career and lastest update.
 
-Check my GitHub: [@mikelue](https://github.com/mikelue), side projects:
+My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
+
+* You can check [summary](./Summary.md).
+* If you have time, my [judgements](./Judgements.md) learned from defects of work.
+
+Some documentations I wrote in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
+
+-----
+
+My GitHub: [@mikelue](https://github.com/mikelue), side projects:
 * [mikelue/jmisc](https://github.com/mikelue/jmisc) - Some Java utilities/libraries I developed for my work, related to Spring Framework(Core, Data), JPA.
 * [mikelue/valor-code](https://github.com/mikelue/valor-code) - Has an imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
 * [mikelue/jdata-unit-test](https://github.com/mikelue/jdata-unit-test) - For self-learning of lambda usage of Java, this project is an imitation of Apache DBUnit.
 * [mikelue/go-misc](https://github.com/mikelue/go-misc) - Some GoLang utilities/libraries I developed for my work, related to Ginkgo, Gorm, and a bit of imitation of Spring Framework of Java.
 * [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
-
-My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
-
-You can check [summary](./Summary.md).
-
-Some documentations I wrote in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
 
 -----
 
@@ -26,7 +29,7 @@ Some documentations I wrote in my work can be found at [mikelue/mikelue.github.i
 # Some experiences I've faced
 
 Software development:
-* Software development must have three things, definition, implementation, and testing, whatever developing process you take.
+* Software development must have three things, _**definition**_, _**implementation**_, and _**testing**_, whatever developing process you take.
 * Most programmers struggle between implementation and testing, rare programmers make good definition.
   * Definition is about make your problem simple, not choose your solution as complex as possible.
   * Implementation is about loyal to specification and deal with the abstraction leaking of IT.
