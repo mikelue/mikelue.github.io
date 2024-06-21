@@ -1,6 +1,6 @@
 ## Agile Development
 
-Software design is about **abstraction**, which needs traning and pratices.
+Software design is about **abstraction**, which needs training and practices.
 
 The lack of abstraction ability cannot be compensated by _SCRUM_ or AGILE process.
 
@@ -30,7 +30,15 @@ Unit tests give you a way to review your design.
 
 Complex unit tests means complex design,<br>
 which indicates poor design,<br>
-which tips error-prone fragements of code.
+which tips error-prone fragments of code.
+
+## Unit Test
+
+1. You don't know how many times will you need to test your code in future.
+1. You have to pay $1 for every time testing your code.
+1. You only have to pay $5 to write unit tests and you can run tests for free in future.
+
+No fucking excuse.
 
 ## Learning
 
