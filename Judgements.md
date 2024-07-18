@@ -6,6 +6,10 @@ The lack of abstraction ability cannot be compensated by _SCRUM_ or AGILE proces
 
 For worst case, shit one's pants and do laundry in next Sprint.
 
+## Requirements/System Analysis
+
+Describes the way a human have to do, not the way how a computer going to do.
+
 ## IT Profession
 
 A responsible programmer learns the philosophy of programming languages/frameworks/tools.
