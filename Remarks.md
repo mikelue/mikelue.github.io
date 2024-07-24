@@ -2,7 +2,7 @@
 
 Software design is about **abstraction**, which needs training and practices.
 
-The lack of abstraction ability cannot be compensated by _SCRUM_ or AGILE process.
+The lack of abstraction ability cannot be compensated by _SCRUM_ or _AGILE_ process.
 
 For worst case, shit one's pants and do laundry in next Sprint.
 

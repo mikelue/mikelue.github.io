@@ -4,7 +4,7 @@ This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
 My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
 
 * You can check [summary](./Summary.md).
-* If you have time, my [judgements](./Judgements.md) learned from defects of work.
+* If you have time, my [remakrs](./Remarks.md) learned from defects of work.
 
 Some documentations I wrote in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
 
