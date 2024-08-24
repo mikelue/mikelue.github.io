@@ -3,6 +3,14 @@
 * Have a view for design which concerns about _programming_, _testability_, _maintainability_, _security_, and _operability_.
 * Know what kind of lacking knowledge will cause what kind of system problems.
 
+## Make things right
+
+As simple as I can, an application system composes following three important aspect of skills:
+
+1. Knowning how to match your design with specifications, protocols, frameworks etc.(JSON Schema, HTTP, SpringFramework)
+1. Knowning how to test your code.(From unit tests to maintainable integration tests)
+1. Knowning how to use databases with best practices.(least indexes for acceptable performance. least cost for correct transaction)
+
 ## Development for Micro-sevices/Saga Pattern/Event sourcing
 
 * Language:
