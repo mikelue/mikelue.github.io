@@ -11,11 +11,9 @@ Some documentations I wrote in my work can be found at [mikelue/mikelue.github.i
 -----
 
 My GitHub: [@mikelue](https://github.com/mikelue), side projects:
-* [mikelue/jmisc](https://github.com/mikelue/jmisc) - Some Java utilities/libraries I developed for my work, related to Spring Framework(Core, Data), JPA.
-* [mikelue/valor-code](https://github.com/mikelue/valor-code) - Has an imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
 * [mikelue/jdata-unit-test](https://github.com/mikelue/jdata-unit-test) - For self-learning of lambda usage of Java, this project is an imitation of Apache DBUnit.
-* [mikelue/go-misc](https://github.com/mikelue/go-misc) - Some GoLang utilities/libraries I developed for my work, related to Ginkgo, Gorm, and a bit of imitation of Spring Framework of Java.
 * [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
+* [mikelue/valor-code](https://github.com/mikelue/valor-code) - An imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
 
 -----
 
@@ -30,37 +28,22 @@ My GitHub: [@mikelue](https://github.com/mikelue), side projects:
 
 Software development:
 * Software development must have three things, _**definition**_, _**implementation**_, and _**testing**_, whatever developing process you take.
-* Most programmers struggle between implementation and testing, rare programmers make good definition.
-  * Definition is about make your problem simple, not choose your solution as complex as possible.
-  * Implementation is about loyal to specification and deal with the abstraction leaking of IT.
-  * Testing is composed of the tests human can do and the ones only computer can do.
-* Workaround is always unworthy, unless your don't have to maintain the code anymore(as criminal as I think).
+* Architectural improvements won't solve the defects of design, design improvements won't solve the defects of implementation.
+* Workaround is always unworthy, since you are unable to determine which one cause the loss of customers if many workarounds has been released.
 
 Data design:
 * Coding is like starting relationship with someone, data design is like running marriage.
-* Lost your code is trivial, lost system data is death sentence.
-  * Coding is about correction with sensible algorithms.
-  * Data design is about using the least logical I/O to reach your function, whatever you are using SQL or NoSQL databases.
-* An algorithm is same however much times you run it.
 * A database is not the same one after time passes(like marriage).
-* Change code is easy(test, building, restart container), change data is hard(when and how to change).
-* When data have bugs, the cost for debugging and fixing is larger than code.
+* The cost of data bug is always higher than code's.
 
 Testing:
 * Software quality is like onion, outer layer(front-end) depends on inner layer(back-end).
 * The cost to debug in inner layer is larger than in outer layer.
-* Unit tests slice the layers for quality insurance.
-* You may cost 10x developing time for writing unit testing,
-  but you will definitely run the tests more than 10 times.
-* The benefits of unit tests
-  * Make sure basic quality for next release version (40%)
-  * Make sure the upgrading of compiler/libraries on which your software depends is safe (20%)
-  * Refactoring existing code without fear(20%)
-  * Quickly rule out some suspected problems while your are debugging (20%)
+* Any holistic test could be and should be split to atomic test.
 
 Documentation:
 * Writing something for helping yourself to recall the things you might forget in future.
-* Writing something for helping others who might take over your code but he or she is unable to contact you directly.
+* Writing something with pen for modeling simplicity in mind.
 * Something is better than nothing.
 
 # Stuffs affect my design principles
@@ -82,7 +65,7 @@ Other books:
 
 ## Senior Architect/Senior Programmer(backend)
 * [TriiiX Inc.](http://www.triiix.io/)*<br>
-*Sep 2022 ~ NOW*
+*Sep 2022 ~ Oct 2024*
 
 Responsible for:
 * Techniques for solid transaction over distributed system.
@@ -94,6 +77,7 @@ What I did:
 * Ease deployment for 20 micro-services(self-hosting)of backend development.
 * Turn the unable-scale micro-services to scalable ones.
 * Turn the legacy logging mechanism to GCP structured one.
+* Re-implement the heavy context-switching service.
 * Use 2-layer reversed proxy to make private API easy to test.
 * Refactoring spaghetti usage over Spring/Spring Boot to decent one.
 * Turn the fat properties to necessary ones, which ease deployment of production.
@@ -103,6 +87,14 @@ What I brought:
 * How to write unit tests on legacy system.
 * How to use spring-boot to prevent deploying local-configuration to shared one.
 * How to write effective logging message.
+
+Techs:
+* Java stack: SpringFramework(Boot, Data, Message)
+* Reactive Programming: Reactor, Kakfa
+* Tests: JUnit, Instancio
+* Database: MySQL, MongoDB, Liquibase
+* Multithreading: JDK Concurrent, Reactor
+* Protocols: HTTP, WebSocket
 
 ## Senior Architect/Senior Programmer(backend)
 *重量科技股份有公司 [KryptoGo Inc.](http://kryptogo.com/)*<br>
