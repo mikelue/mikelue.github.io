@@ -17,11 +17,14 @@ As simple as I can, an application system composes following three important asp
   * Java(over 10 years): SpringBoot, Spring WebFlux/WebMVC, SpringSecurity, SpringData(JPA/Hibernetes, Cassandra), Reactive Programming(Reactor), BeanValidation,
     AspectJ, CGLib, SLF4j, LogBack
   * GoLang(3 years): Gin, GORM, Go-Resty
+* Deployment:
+  * Kubernetes(on GCP), Minikube, 4 years
 * Language Tools:
   * Java: Maven
 * Testing:
   * Java: JUnit(Jupiter), JMockit
   * GoLang: Ginkgo, Gomega
+  * Minikube: In personal or shared environment for development team
 * Parser generator:
   * Java: ANTLR
   * GoLang: pointlander/peg
@@ -56,7 +59,7 @@ Experienced on NoSQL Databases: Cassandra, MongoDB
 
 ## CI/CD
 
-* Experienced on modern CI/CD(GitLab CI, GitHit action)
+* Experienced on modern CI/CD(GitLab CI, GitHub action)
 * Experienced with Docker/Kubernetes/Kustomized
 
 ## Cloud
