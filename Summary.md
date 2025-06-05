@@ -30,6 +30,10 @@ As simple as I can, an application system composes following three important asp
   * GoLang: pointlander/peg
 * Queueing: RabbitMQ, Kafka
 
+## Other languages
+
+* `Perl`(15 years ago), `TypeScript`(for nvim/vim plugin, recently), `lua`(for nvim, recently)
+
 ### Architecture
 
 * Experienced on reactive programming
