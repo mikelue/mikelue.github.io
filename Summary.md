@@ -29,10 +29,14 @@ As simple as I can, an application system composes following three important asp
   * Java: ANTLR
   * GoLang: pointlander/peg
 * Queueing: RabbitMQ, Kafka
+* Lightweight Markup Language:
+  * Markdown, AsciiDoc, Creole(used by Trac mainly)
 
 ## Other languages
 
 * `Perl`(15 years ago), `TypeScript`(for nvim/vim plugin, recently), `lua`(for nvim, recently)
+* `vimscript`(I've been using VIM for 20 years, turn to NVIM recently)
+* `fish`(as I change my development environment of terminal)
 
 ### Architecture
 
