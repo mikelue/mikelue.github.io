@@ -7,9 +7,9 @@
 
 As simple as I can, an application system composes following three important aspect of skills:
 
-1. Knowning how to match your design with specifications, protocols, frameworks etc.(JSON Schema, HTTP, SpringFramework)
-1. Knowning how to test your code.(From unit tests to maintainable integration tests)
-1. Knowning how to use databases with best practices.(least indexes for acceptable performance. least cost for correct transaction)
+1. Knowing how to match your design with specifications, protocols, frameworks etc.(JSON Schema, HTTP, SpringFramework)
+1. Knowing how to test your code.(From unit tests to maintainable integration tests)
+1. Knowing how to use databases with best practices.(least indexes for acceptable performance. least cost for correct transaction)
 
 ## Development for Micro-sevices/Saga Pattern/Event sourcing
 
@@ -17,6 +17,8 @@ As simple as I can, an application system composes following three important asp
   * Java(over 10 years): SpringBoot, Spring WebFlux/WebMVC, SpringSecurity, SpringData(JPA/Hibernetes, Cassandra), Reactive Programming(Reactor), BeanValidation,
     AspectJ, CGLib, SLF4j, LogBack
   * GoLang(3 years): Gin, GORM, Go-Resty
+* Paradigm:
+  * Familiar with Reactor(framework of Reactive Programming)
 * Deployment:
   * Kubernetes(on GCP), Minikube, 4 years
 * Language Tools:
