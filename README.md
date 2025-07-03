@@ -64,7 +64,7 @@ Other books:
 
 # Career
 
-## Senior Architect/Senior Programmer(backend)
+## Senior Architect/Backend Programmer
 * [TriiiX Inc.](http://www.triiix.io/)*<br>
 *Sep 2022 ~ Oct 2024*
 
@@ -97,7 +97,7 @@ Techs:
 * Multithreading: JDK Concurrent, Reactor
 * Protocols: HTTP, WebSocket
 
-## Senior Architect/Senior Programmer(backend)
+## Senior Architect/Backend Programmer
 *重量科技股份有公司 [KryptoGo Inc.](http://kryptogo.com/)*<br>
 *Aug 2020 ~ Aug 2021(1 year)*
 

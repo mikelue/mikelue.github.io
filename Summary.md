@@ -40,7 +40,7 @@ As simple as I can, an application system composes following three important asp
 
 * `Perl`(15 years ago), `TypeScript`(for nvim/vim plugin, recently), `lua`(for nvim, recently)
 * `vimscript`(I've been using VIM for 20 years, turn to NVIM recently)
-* `fish`(as I change my development environment of terminal)
+* `fish`(as I change my development environment of terminal), `bash`(at least 15 years)
 
 ### Architecture
 
