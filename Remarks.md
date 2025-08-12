@@ -55,7 +55,7 @@ Use documenting to clarify your mind.
 
 If you can write effectively, you can code effectively.
 
-Make you as your reader, who is unable to meet you face-to-face.
+Make youself as your reader, who is unable to meet you face-to-face.
 
 An incompetent programmer also makes unreadable documentations.
 
