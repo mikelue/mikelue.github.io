@@ -13,13 +13,13 @@ As simple as I can, an application system composes following three important asp
 
 ## Development for Micro-sevices/Saga Pattern/Event sourcing
 
-* Language:
+* Languages:
   * Java(over 10 years): SpringBoot, Spring WebFlux/WebMVC, SpringSecurity, SpringData(JPA/Hibernetes, Cassandra), Reactive Programming(Reactor), BeanValidation,
     AspectJ, CGLib, SLF4j, LogBack
-  * GoLang(3 years): Gin, GORM, Go-Resty
+  * GoLang(5 years): Gin, GORM, Go-Resty
 * Meta-Programming:
   * Experienced with PEG(Parsing Expression Grammar)
-* Paradigm:
+* Paradigms:
   * Familiar with Reactor(framework of Reactive Programming)
 * Deployment:
   * Kubernetes(on GCP), Minikube, 4 years
@@ -74,12 +74,12 @@ Experienced on NoSQL Databases: Cassandra, MongoDB
 * Experienced on modern CI/CD(GitLab CI, GitHub action)
 * Experienced with Docker/Kubernetes/Kustomized
 
-## Cloud
+## Clouds
 
 * Experienced on AWS(EC2, ElastiCache, RDS, ECS)
 * Experienced on GCP(SQL, GKE, Logging, Monitoring)
 
-## Knowledge system
+## Knowledge systems
 
 Expert on usage of Trac/AsciiDoc writing.
 
