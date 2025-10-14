@@ -36,6 +36,11 @@ As simple as I can, an application system composes following three important asp
 * Lightweight Markup Language:
   * Markdown, AsciiDoc, Creole(used by Trac mainly)
 
+### Advanced langauge usage
+
+* Java heap diagnosis: Expert on Java heap dump analysis.
+* SQL performance tuning: Know how to pre-optimized SQL performance.
+
 ## Other languages
 
 * `Perl`(15 years ago), `TypeScript`(for nvim/vim plugin, recently), `lua`(for nvim, recently)

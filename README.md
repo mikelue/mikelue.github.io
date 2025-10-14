@@ -11,7 +11,8 @@ Some documentations I wrote in my work can be found at [mikelue/mikelue.github.i
 -----
 
 My GitHub: [@mikelue](https://github.com/mikelue), side projects:
-* [mikelue/jdata-unit-test](https://github.com/mikelue/jdata-unit-test) - For self-learning of lambda usage of Java, this project is an imitation of Apache DBUnit.
+* [mikelue/foxglove](https://github.com/mikelue/foxglove) - As an alternative of [@Sql](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/test/context/jdbc/Sql.html),
+this library to generate data by defined rules instead of authoring `INSERT INTO` statements of SQL.
 * [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
 * [mikelue/ddu-source-k8s](https://github.com/mikelue/ddu-source-k8s) - A VIM plugin for source of [DDU](https://github.com/Shougo/ddu.vim).
 * [mikelue/valor-code](https://github.com/mikelue/valor-code) - An imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
