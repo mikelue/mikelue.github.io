@@ -15,7 +15,6 @@ My GitHub: [@mikelue](https://github.com/mikelue), side projects:
 this library to generate data by defined rules instead of authoring `INSERT INTO` statements of SQL.
 * [mikelue/vim-maven-plugin](https://github.com/mikelue/vim-maven-plugin) - A VIM plugin for Maven.
 * [mikelue/ddu-source-k8s](https://github.com/mikelue/ddu-source-k8s) - A VIM plugin for source of [DDU](https://github.com/Shougo/ddu.vim).
-* [mikelue/valor-code](https://github.com/mikelue/valor-code) - An imaginary project developed by Spring Framework(Boot, Data/JPA, Data/Cassandra, Message/Kafka) and PostgreSQL/Cassandra/Kafka.
 
 -----
 
@@ -64,6 +63,26 @@ Other books:
 -----
 
 # Career
+
+* Xihui Inc.(夕煇有限公司)
+## Senior Backend Programmer
+Jan 2026 ~ Jun 2026
+
+Responsible for:
+* Develop features of lottery system
+* Design/implements number fetching service for official lottery
+
+What I did:
+* Adopt schema version control of database by Liquibase
+* Adopt hot-swap deployment for shared environment of team
+* Reduce CI/CD building time from 10 minutes to 2 minutes
+* Troubleshooting performance issue of system
+* Solve the transaction separation caused by MyBatis Flex
+
+Tech stacks:
+* Java(25): SpringBoot, Spring Data JPA, MyBatis Flex, Spring WebFlux
+* Tests: Mockit, JMockit, JUnit, Instancio, AssertJ
+* Queue/Databases: Kafka, Redis, PostgreSQL
 
 ## Senior Architect/Backend Programmer
 * [TriiiX Inc.](http://www.triiix.io/)*<br>
@@ -374,6 +393,7 @@ Internship of Maintenance Department:
 
 Following list are the closed down companies I had worked for.<br>
 
+* *夕煇有限公司(Xihui Inc.)*
 * *香港商翱鶚股份有限公司台灣分公司(Cepave Inc.)*
 * *博諾資訊(Bonopoints Inc.)*
 * *傳諦股份有限公司(FenzyTV Inc.)*
