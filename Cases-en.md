@@ -4,8 +4,8 @@
 - [CI/CD](#cicd)
 - [Spring Framework](#spring-framework)
 - [Service Failure](#service-failure)
+- [Foundation of professional knowledge](#foundation-of-professional-knowledge)
 - [Unit Test](#unit-test)
-- [Unit Test](#unit-test-1)
 - [Java Heap Analysis](#java-heap-analysis)
 - [Complex Configuration](#complex-configuration)
 - [Parser](#parser)
@@ -76,20 +76,21 @@
     * Found a `ulimit` "too many open files" error.
 * Takeaway: Troubleshooting requires considering the entire system and breaking the problem down step by step.
 
-## Unit Test
+## Foundation of professional knowledge
 
-* Background: cryptocurrency exchange
-    * Java, Spring Framework
+* Background: Cryptocurrency exchange
+  * Java, Spring Framework
 * Problem:
-    * A microservice developed by colleague A could not process incoming market data fast enough to persist it, even on a 16-core VM, according to DevOps.
-    * Colleague B, who continued developing the module, found many missing-data issues.
+  * A microservice developed by colleague A could not process market data quickly enough for database storage, even on a 16-core VM, according to the DevOps team.
+  * While colleague B continued developing features for the module, they discovered many issues involving missing data.
 * Cause:
-    * For every batch of market data received, the module created and then shut down a new Java `Executor`.
-* Resolution:
-    * Suggested that colleague B revise the multithreading strategy and write to the database using batched, buffered queues.
+  * After receiving each batch of market data, the module created a new Java `Executor` and then shut it down.
+* Solution:
+  * Recommended that colleague B revise the multithreading strategy and change the implementation to write data to the database using batches from a buffered queue.
 * Result:
-    * The VM was reduced to four cores, while the microservice's average CPU usage was about 20%.
-* Takeaway: Fundamentals of multithreading and high-volume database writes are extremely important.
+  * The VM was reduced to four cores, while the microservice’s average CPU usage became approximately 20%.
+* Takeaway:
+  A solid understanding of multithreading practices and high-volume database writes is extremely important.
 
 ## Unit Test
 

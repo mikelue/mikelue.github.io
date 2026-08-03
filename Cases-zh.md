@@ -4,8 +4,8 @@
 - [CI/CD](#cicd)
 - [SpringFramework](#springframework)
 - [服務異常](#服務異常)
+- [專業知識基礎](#專業知識基礎)
 - [Unit Test](#unit-test)
-- [Unit Test](#unit-test-1)
 - [Java Heap Analysis](#java-heap-analysis)
 - [Complex Configuration](#complex-configuration)
 - [Parser](#parser)
@@ -77,7 +77,7 @@
     * 發現 _ulimit_ too many open file
 * 心得：查詢問題時，需要全盤考量，逐一拆解
 
-## Unit Test
+## 專業知識基礎
 
 * 背景：虛擬貨幣交易所
     * Java, SpringFramework
@@ -90,7 +90,7 @@
     * 建議 B 同事調整多執行緒策略，並把程式改為 Batch of buffered Queue 的方式寫進資料庫
 * 結果：
     * 降至四核 VM，該微服務平均 CPU 用量約為 20%
-* 心得：多執行緒與資料庫大量寫入基礎極為重要
+* 心得：多執行緒的使用方式與資料庫大量寫入專業知識基礎極為重要
 
 ## Unit Test
 
