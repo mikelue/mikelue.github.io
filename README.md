@@ -3,6 +3,7 @@ This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
 
 My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
 
+* Cases for work(工作案例): [English version](./Cases-en.md), [中文版](./Cases-zh.md)
 * You can check [summary](./Summary.md).
 * If you have time, my [remakrs](./Remarks.md) learned from defects of work.
 
