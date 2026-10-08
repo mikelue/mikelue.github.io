@@ -3,9 +3,12 @@ This is [https://gh.mikelue.guru/](https://gh.mikelue.guru/),
 
 My Email Address: **[mike.lue0627@msa.hinet.net](mike.lue0627@msa.hinet.net)**<br>
 
-* Cases for work(工作案例): [English version](./Cases-en.md), [中文版](./Cases-zh.md)
-* You can check [summary](./Summary.md).
+[中文版履歷](./README-zh.md)：https://gh.mikelue.guru/README-zh.md
+
+* Cases for work: [cases](./Cases-en.md): https://gh.mikelue.guru/Cases.md
+* You can check [summary](./Summary.md): https://gh.mikelue.guru/Summary.md
 * If you have time, my [remakrs](./Remarks.md) learned from defects of work.
+    * https://gh.mikelue.guru/Remarks.md
 
 Some documentations I wrote in my work can be found at [mikelue/mikelue.github.io](https://github.com/mikelue/mikelue.github.io/).
 
